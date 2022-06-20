@@ -1,0 +1,129 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+
+body{
+    font-family: open sans;
+    background-color: rgb(180, 201, 180);
+    color: rgb(68, 68, 68);
+}
+
+/* Messages */
+.error-msg{ 
+    width: 100%;
+    background-color: rgb(235, 226, 226);
+    color: rgb(196, 74, 74);
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(189, 71, 71);
+}
+.success-msg{ 
+    width: 100%;
+    background-color: rgb(205, 233, 201);
+    color: rgb(71, 153, 75);
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(77, 187, 82);
+}
+
+/* All posts */
+.posts-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.posts-wrapper{
+    border: 1px soild grey;
+    width: 80%;
+    height: auto;
+    background-color: rgb(252, 248, 250);
+    margin: 20px 0px;
+    padding: 40px;
+    border-radius: 10px;
+}
+.title{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.author{
+    font-size: 18px;
+    font-weight: 400;
+}
+.date{
+    font-size: 16px;
+    margin-bottom: 50px;
+    font-weight: 200;
+}
+.content{
+    max-width: 450px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.link{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(99, 129, 99);
+    font-weight: 600;
+}
+
+/* Admin */
+.list-admin{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.info-admin{
+    width: 100%;
+}
+.update{
+    margin-right: 10px;
+}
+.new-post-form{
+    margin: 50px 0 60px 0;
+    width: 100%;
+    height: auto;
+}
+.inputfield{
+    margin-bottom: 15px;
+    border: none;
+}
+.add-btn{
+    width: 30%;
+    margin-top: 10px;
+}
+
+/* Update */
+.buttons{
+    margin-top: 40px;
+}
+.update-btn{
+    width: 60%;
+    margin-right: 30px;
+}
+.back-link{
+    color: rgb(53, 53, 53);
+}
+.rubrik{
+    margin-bottom: 30px;
+}
+
+/* Single post */
+.wrapper-single-post{
+    width: 90%;
+    height: auto;
+    background-color: rgb(252, 248, 250);
+    padding: 70px 40px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.content-full{
+    font-size: 20px;
+    font-weight: 300;
+}
+.link-single-post{
+    float: right;
+    margin-top: 50px;
+}
